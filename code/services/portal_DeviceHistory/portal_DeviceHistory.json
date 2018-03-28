@@ -1,0 +1,13 @@
+{
+    "current_version": 58,
+    "dependencies": "clearblade,qLib,log",
+    "logging_enabled": "true",
+    "name": "portal_DeviceHistory",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "portal_DeviceHistory.js"
+}
