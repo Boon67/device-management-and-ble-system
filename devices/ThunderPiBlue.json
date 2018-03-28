@@ -1,0 +1,10 @@
+{
+    "allow_certificate_auth": false,
+    "allow_key_auth": true,
+    "certificate": "",
+    "description": "",
+    "enabled": true,
+    "name": "ThunderPiBlue",
+    "state": "active",
+    "type": "Adapter Account"
+}
