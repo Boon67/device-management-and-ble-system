@@ -1,0 +1,14 @@
+{
+    "architecture": "MacOS64",
+    "deploy_command": "",
+    "description": "NXP BLE Adapter",
+    "logs_command": "",
+    "name": "bleAdapter_initd",
+    "os": "",
+    "protocol": "",
+    "start_command": "",
+    "status_command": "",
+    "stop_command": "",
+    "undeploy_command": "",
+    "version": 51
+}
