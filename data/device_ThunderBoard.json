@@ -1,0 +1,173 @@
+{
+    "app_id": "e0d083ab0b8abe99fd86c0bef802",
+    "collection_id": "bceda0ab0bda9f8fb796e5ac812d",
+    "items": [
+        {
+            "co2": 434,
+            "device_name": "Thunder Sense #36830",
+            "deviceaddress": "00:0b:57:1a:8f:de",
+            "deviceid": "00:0b:57:1a:8f:de",
+            "gateway": "imx6ulmg",
+            "humidity": 27,
+            "light": 89,
+            "location": "Austin",
+            "powersource": 1,
+            "pressure": 997,
+            "rssi": -31,
+            "sound": 52,
+            "status": "authorized",
+            "temperature": 30,
+            "timestamp": "2018-03-27T16:02:10.823Z",
+            "uvindex": 0,
+            "voc": 5
+        },
+        {
+            "co2": 3941,
+            "device_name": "Thunder Sense #56459",
+            "deviceaddress": "00:0b:57:4e:dc:8b",
+            "deviceid": "00:0b:57:4e:dc:8b",
+            "gateway": "imx6ulmg",
+            "humidity": 22,
+            "light": 0,
+            "location": "Denver",
+            "powersource": 1,
+            "pressure": 837,
+            "rssi": -87,
+            "sound": 37,
+            "status": "authorized",
+            "temperature": 19,
+            "timestamp": "2018-03-28T15:21:10.184Z",
+            "uvindex": 0,
+            "voc": 539
+        },
+        {
+            "co2": 415,
+            "device_name": "Thunder Sense #17645",
+            "deviceaddress": "00:0b:57:52:44:ed",
+            "deviceid": "00:0b:57:52:44:ed",
+            "gateway": "imx6ulmg",
+            "humidity": 26,
+            "light": 1,
+            "location": "Denver",
+            "powersource": 1,
+            "pressure": 837,
+            "rssi": -53,
+            "sound": 40,
+            "status": "authorized",
+            "temperature": 27,
+            "timestamp": "2018-03-28T15:22:15.983Z",
+            "uvindex": 0,
+            "voc": 2
+        },
+        {
+            "co2": 401,
+            "device_name": "Thunder Sense #51536",
+            "deviceaddress": "00:0b:57:51:c9:50",
+            "deviceid": "00:0b:57:51:c9:50",
+            "gateway": "imx6ulmg",
+            "humidity": 32,
+            "light": 1,
+            "location": "Denver",
+            "powersource": 1,
+            "pressure": 838,
+            "rssi": -81,
+            "sound": 38,
+            "status": "authorized",
+            "temperature": 24,
+            "timestamp": "2018-03-28T15:19:49.612Z",
+            "uvindex": 0,
+            "voc": 0
+        }
+    ],
+    "name": "device_ThunderBoard",
+    "permissions": {
+        "Authenticated": 7
+    },
+    "schema": [
+        {
+            "ColumnName": "deviceid",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "deviceaddress",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "device_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sound",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "co2",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "temperature",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "voc",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "humidity",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "light",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "pressure",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "powersource",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "rssi",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "uvindex",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "timestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "status",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "location",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
