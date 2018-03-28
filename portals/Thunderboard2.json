@@ -1,0 +1,2027 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "28ceff36-bf47-469f-96ab-694ca924aa4f": "lg",
+            "507d921b-b78b-4007-a615-3626721c00b6": "md",
+            "5b3392e8-0e01-4ae6-b2db-8419021d3e58": "lg",
+            "6033ca3d-3999-4018-a8ed-8864614cfb24": "lg",
+            "82834f3a-f911-4392-997e-de406fc8788e": "lg",
+            "97108b6e-6a14-447b-9bc8-d4a3a36f86d0": "lg",
+            "982c1f8c-4954-40ed-8061-ac106c4d8d72": "lg",
+            "cda2afd1-843d-47d5-a4fd-b6f9bcc1cc54": "lg",
+            "dd42efcf-0091-4f9c-a2ba-da135a648b32": "xxs"
+        },
+        "datasources": {
+            "2db76c1f-9ea9-4215-94f8-f59cdc28fca6": {
+                "id": "2db76c1f-9ea9-4215-94f8-f59cdc28fca6",
+                "name": "selectedDevice",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "8372bf42-356d-4145-9abb-340c0b71ff6b": {
+                "id": "8372bf42-356d-4145-9abb-340c0b71ff6b",
+                "name": "devices",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "portal_DeviceList",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "8b531a4c-d768-444e-a3da-8e9bbd2e4175": {
+                "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                "name": "thunderboardMessage",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "TOPIC_NAME": "device/ThunderBoard/00:0b:57:52:44:ed"
+                },
+                "type": "CB_MESSAGE_TOPIC"
+            },
+            "94dc9f2f-1c71-4ace-914a-81dcd44b025c": {
+                "id": "94dc9f2f-1c71-4ace-914a-81dcd44b025c",
+                "name": "device_History",
+                "settings": {
+                    "CALL_ON_LOAD": {
+                        "target": {
+                            "value": false
+                        }
+                    },
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "portal_DeviceHistory",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://fonts.googleapis.com/icon?family=Material+Icons"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.6.3/jquery.timeago.min.js"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "28ceff36-bf47-469f-96ab-694ca924aa4f": {
+                "lg": [
+                    {
+                        "h": 6,
+                        "i": "bfd94129-2f4b-4452-98ee-28c6d3237ec9",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 6,
+                        "i": "60e274f9-858d-485a-a38d-4256eb8220fa",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 18
+                    },
+                    {
+                        "h": 6,
+                        "i": "48b03565-14c2-4d0b-8c78-5502ef12295d",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 7,
+                        "i": "fd6b009a-3e11-47cf-8de7-efa9ea9bc3b5",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 24
+                    },
+                    {
+                        "h": 6,
+                        "i": "68e13412-d73a-4439-99fa-96bb0be18d52",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 6
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 13,
+                        "i": "bfd94129-2f4b-4452-98ee-28c6d3237ec9",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 14,
+                        "i": "60e274f9-858d-485a-a38d-4256eb8220fa",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 0,
+                        "y": 13
+                    },
+                    {
+                        "h": 14,
+                        "i": "48b03565-14c2-4d0b-8c78-5502ef12295d",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 5,
+                        "y": 0
+                    },
+                    {
+                        "h": 14,
+                        "i": "fd6b009a-3e11-47cf-8de7-efa9ea9bc3b5",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 5,
+                        "y": 14
+                    }
+                ],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "507d921b-b78b-4007-a615-3626721c00b6": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "25d80bfb-b195-4178-b5aa-4ca07f350b5b",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "597aba28-a338-4c27-9442-7b29dd249827",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 9
+                    },
+                    {
+                        "h": 8,
+                        "i": "3c1280ad-54e2-40df-854a-2026555dde72",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 9
+                    },
+                    {
+                        "h": 8,
+                        "i": "8b014717-feaf-423a-8b8c-1cbbb2e472ac",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 6,
+                        "y": 9
+                    },
+                    {
+                        "h": 8,
+                        "i": "efffa571-f592-42b9-a0ec-2b0beca910d4",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 8,
+                        "y": 9
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 8,
+                        "i": "25d80bfb-b195-4178-b5aa-4ca07f350b5b",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 8,
+                        "i": "597aba28-a338-4c27-9442-7b29dd249827",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 4,
+                        "y": 0
+                    },
+                    {
+                        "h": 8,
+                        "i": "3c1280ad-54e2-40df-854a-2026555dde72",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 0
+                    },
+                    {
+                        "h": 8,
+                        "i": "8b014717-feaf-423a-8b8c-1cbbb2e472ac",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 6,
+                        "y": 0
+                    },
+                    {
+                        "h": 8,
+                        "i": "efffa571-f592-42b9-a0ec-2b0beca910d4",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 8,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 9,
+                        "i": "25d80bfb-b195-4178-b5aa-4ca07f350b5b",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "597aba28-a338-4c27-9442-7b29dd249827",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 4,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "3c1280ad-54e2-40df-854a-2026555dde72",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "8b014717-feaf-423a-8b8c-1cbbb2e472ac",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 4,
+                        "y": 9
+                    },
+                    {
+                        "h": 9,
+                        "i": "efffa571-f592-42b9-a0ec-2b0beca910d4",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 5,
+                        "y": 18
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 9,
+                        "i": "25d80bfb-b195-4178-b5aa-4ca07f350b5b",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "597aba28-a338-4c27-9442-7b29dd249827",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 9,
+                        "i": "25d80bfb-b195-4178-b5aa-4ca07f350b5b",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "597aba28-a338-4c27-9442-7b29dd249827",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 9
+                    }
+                ]
+            },
+            "5b3392e8-0e01-4ae6-b2db-8419021d3e58": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "64cba777-cd8c-4ef9-9232-80cdc8618a01",
+                        "minH": 3,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "6033ca3d-3999-4018-a8ed-8864614cfb24": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "c6429bf5-d632-4ce3-b9c8-bb3d1913a141",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "82834f3a-f911-4392-997e-de406fc8788e": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "08f5e5b4-0283-4870-8394-d251b1d96348",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "97108b6e-6a14-447b-9bc8-d4a3a36f86d0": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "29d617ab-694f-422e-b4fa-48b13c25c836",
+                        "minH": 3,
+                        "w": 7,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "982c1f8c-4954-40ed-8061-ac106c4d8d72": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "ac703102-1534-4626-8a0b-865d5586dd08",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "cda2afd1-843d-47d5-a4fd-b6f9bcc1cc54": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "874954a7-7b55-4787-a383-edb902829181",
+                        "minH": 3,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "dd42efcf-0091-4f9c-a2ba-da135a648b32": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "b485efd6-4588-43cb-bae8-aa33f55735dd",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "2b7dde14-ad29-45b6-8c36-7b34172898a4",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": [
+                    {
+                        "h": 28,
+                        "i": "b485efd6-4588-43cb-bae8-aa33f55735dd",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 4
+                    },
+                    {
+                        "h": 4,
+                        "i": "2b7dde14-ad29-45b6-8c36-7b34172898a4",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 2,
+                        "i": "2930e705-921e-44b2-b115-f183eb0aa264",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "acc962f4-3afb-4b03-a876-e062f480842d",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 4,
+                        "y": 9
+                    },
+                    {
+                        "h": 2,
+                        "i": "6ba48271-3c22-465e-9ce0-c905b00bd3ec",
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 3,
+                        "y": 3
+                    },
+                    {
+                        "h": 2,
+                        "i": "17234dc0-7f42-4966-b7c9-b9ce7236d887",
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 3,
+                        "y": 1
+                    },
+                    {
+                        "h": 1,
+                        "i": "186dccff-11f0-4757-b6df-d22f312cd7c2",
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 3,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "4b510a0b-f2e3-486f-94b7-87ecc0c1a3ce",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 2
+                    },
+                    {
+                        "h": 3,
+                        "i": "e31c03b2-5ba9-49d7-a76a-9b9d9182cde9",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 9
+                    },
+                    {
+                        "h": 4,
+                        "i": "888fae05-63a2-453b-b37f-c265864dbdf7",
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 5
+                    },
+                    {
+                        "h": 2,
+                        "i": "bf18e509-c528-4ea0-80ec-3faee9bb1484",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 8,
+                        "y": 1
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "17234dc0-7f42-4966-b7c9-b9ce7236d887": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Sound"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "17234dc0-7f42-4966-b7c9-b9ce7236d887",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "82834f3a-f911-4392-997e-de406fc8788e",
+                    "tabIds": [
+                        "82834f3a-f911-4392-997e-de406fc8788e"
+                    ],
+                    "tabTitles": {
+                        "82834f3a-f911-4392-997e-de406fc8788e": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "186dccff-11f0-4757-b6df-d22f312cd7c2": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Device Details"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "186dccff-11f0-4757-b6df-d22f312cd7c2",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "97108b6e-6a14-447b-9bc8-d4a3a36f86d0",
+                    "tabIds": [
+                        "97108b6e-6a14-447b-9bc8-d4a3a36f86d0"
+                    ],
+                    "tabTitles": {
+                        "97108b6e-6a14-447b-9bc8-d4a3a36f86d0": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "2930e705-921e-44b2-b115-f183eb0aa264": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "2930e705-921e-44b2-b115-f183eb0aa264",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "dd42efcf-0091-4f9c-a2ba-da135a648b32",
+                    "tabIds": [
+                        "dd42efcf-0091-4f9c-a2ba-da135a648b32"
+                    ],
+                    "tabTitles": {
+                        "dd42efcf-0091-4f9c-a2ba-da135a648b32": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "4b510a0b-f2e3-486f-94b7-87ecc0c1a3ce": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "4b510a0b-f2e3-486f-94b7-87ecc0c1a3ce",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "982c1f8c-4954-40ed-8061-ac106c4d8d72",
+                    "tabIds": [
+                        "982c1f8c-4954-40ed-8061-ac106c4d8d72"
+                    ],
+                    "tabTitles": {
+                        "982c1f8c-4954-40ed-8061-ac106c4d8d72": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "6ba48271-3c22-465e-9ce0-c905b00bd3ec": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Current Readings"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "6ba48271-3c22-465e-9ce0-c905b00bd3ec",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "507d921b-b78b-4007-a615-3626721c00b6",
+                    "tabIds": [
+                        "507d921b-b78b-4007-a615-3626721c00b6"
+                    ],
+                    "tabTitles": {
+                        "507d921b-b78b-4007-a615-3626721c00b6": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "888fae05-63a2-453b-b37f-c265864dbdf7": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "History"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "888fae05-63a2-453b-b37f-c265864dbdf7",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "28ceff36-bf47-469f-96ab-694ca924aa4f",
+                    "tabIds": [
+                        "28ceff36-bf47-469f-96ab-694ca924aa4f"
+                    ],
+                    "tabTitles": {
+                        "28ceff36-bf47-469f-96ab-694ca924aa4f": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "acc962f4-3afb-4b03-a876-e062f480842d": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Raw Data"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "acc962f4-3afb-4b03-a876-e062f480842d",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "cda2afd1-843d-47d5-a4fd-b6f9bcc1cc54",
+                    "tabIds": [
+                        "cda2afd1-843d-47d5-a4fd-b6f9bcc1cc54"
+                    ],
+                    "tabTitles": {
+                        "cda2afd1-843d-47d5-a4fd-b6f9bcc1cc54": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "bf18e509-c528-4ea0-80ec-3faee9bb1484": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Signal"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "bf18e509-c528-4ea0-80ec-3faee9bb1484",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "5b3392e8-0e01-4ae6-b2db-8419021d3e58",
+                    "tabIds": [
+                        "5b3392e8-0e01-4ae6-b2db-8419021d3e58"
+                    ],
+                    "tabTitles": {
+                        "5b3392e8-0e01-4ae6-b2db-8419021d3e58": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            },
+            "e31c03b2-5ba9-49d7-a76a-9b9d9182cde9": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": "Motion"
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "e31c03b2-5ba9-49d7-a76a-9b9d9182cde9",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "6033ca3d-3999-4018-a8ed-8864614cfb24",
+                    "tabIds": [
+                        "6033ca3d-3999-4018-a8ed-8864614cfb24"
+                    ],
+                    "tabTitles": {
+                        "6033ca3d-3999-4018-a8ed-8864614cfb24": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "secondary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5"
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#615d6d"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#615d6d"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#615d6d"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#4e4a57",
+                                "backgroundColor": "#b0aeb6",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#b0aeb6"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#4e4a57",
+                                "backgroundColor": "#615d6d",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#615d6d",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#615d6d",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#615d6d",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#615d6d",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#615d6d",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#615d6d"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#615d6d"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#4e4a57",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#615d6d",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#b0aeb6",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "08f5e5b4-0283-4870-8394-d251b1d96348": {
+                "externalScripts": [],
+                "id": "08f5e5b4-0283-4870-8394-d251b1d96348",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".underline {\n  text-decoration: underline;\n}\n\n.soundBar {\n    width:20px;\n\theight:20px;\n\tposition:absolute;\n\tborder: 1px solid;\n}\n.low {\nborder-color:rgb(86, 153, 34);\n}\n.medium {\n\tborder-color:rgb(204, 92, 47);\n}\n.high{\n    border-color:rgb(170, 50, 36);\n}\n.soundBar.low.fill{\n\tbackground-color:rgb(86, 153, 34);\n}\nsoundBar.medium.fill{\n    background-color:rgb(204, 92, 47);\n}\n.soundBar.high.fill{\n\tbackground-color:rgb(170, 50, 36);\n}",
+                                "HTML": "\u003cdiv id=\"sbwidget\" style=\"position:relative;height:5px;width:100px;padding-top:0px\"\u003e\n    \u003cdiv class=\"soundBar low fill\" style=\"left:0px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar low\" style=\"left:0px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar low\" style=\"left:15px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar low\" style=\"left:30px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar low\" style=\"left:45px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar low\" style=\"left:60px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar low\" style=\"left:75px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar low\" style=\"left:90px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar medium\" style=\"left:105px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar medium\" style=\"left:120px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar medium\" style=\"left:135px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar medium\" style=\"left:150px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar medium\" style=\"left:165px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar medium\" style=\"left:180px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar high\" style=\"left:195px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar high\" style=\"left:210px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar high\" style=\"left:225px\"\u003e\u003c/div\u003e\n    \u003cdiv class=\"soundBar high\" style=\"left:240px\"\u003e\u003c/div\u003e\n\u003c/div\u003e",
+                                "JavaScript": "//JavaScript\nvar sound = 50;\ntry {\n    if ( this.datasource !== null ) {\n        var env = JSON.parse(this.datasource);\n        sound = env.sound;\n    }\n}\ncatch (err) {\n    console.log ( \"SoundWidget: Poor datasource: \" + String(err)) ;\n}\n\nvar isFilled= function(index){\n    if ((index+1)*10 \u003csound){\n        return \"fill\";\n    }\n  return \"\";  \n};\n\nvar description = \"Probably not hearing anything\";\nif( sound \u003c= 15){\n    description = \"Almost inaudible: A leaf falling\";  \n} else if( sound \u003c=25){\n    description = \"Audible: Rustles of autumnal leaves\"; \n} else if( sound \u003c=35){\n    description = \"Very quiet: Whispering\";    \n}else if( sound \u003c=45){\n    description = \"Quiet: Living room, quiet classroom\";    \n}else if( sound \u003c=55){\n    description = \"Limited sound: Refrigerator working, car driving past\";   \n}else if( sound \u003c=65){\n    description = \"Low sound: Percolating coffee-maker\";   \n} else if( sound \u003c=75){\n    description = \"Normal Audible:  Sound of human voice, machinery\";   \n} else if( sound \u003c=85){\n    description = \"Irritating:  Television set on loud, vacuum cleaner, several people on the telephone\";   \n}else if( sound \u003c=95){\n    description = \"Unpleasant:  Alarm clock, freight traffic, doorbell\";   \n}else if( sound \u003c=105){\n    description = \"Extremely unpleasant: Machine in a factory, compressor, fighter jet at 300 m\";   \n} else if( sound \u003c=115){\n    description = \"Loud: Rock concert, chainsaw\";   \n} else if( sound \u003c=125){\n    description = \"Extremely Loud: Human voice at its loudest, police siren\";   \n}else if( sound \u003c=135){\n     description = \"Thunder\";   \n}else if( sound \u003c=145){\n    description = \"Pain Threshhold: Fireworks\";   \n}else if( sound \u003c=155){\n    description = \"Permanent damage to hearing: Audible\tRustles of autumnal leaves\";   \n}else if( sound \u003c=165){\n     description = \"Avalanche firework\";   \n}else if( sound \u003c=175){\n     description = \"Audible\tRustles of autumnal leaves\";   \n}else if( sound \u003c=185){\n     description = \"Rocket launch platform\";   \n}\n\n    var strVar = \"\";\n\n    strVar += \"\u003cdiv style=\\\"position:relative;height:0px;width:225px;left:25px;top:0px;padding-top:20px\\\"\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar low \"+isFilled(0)+\"\\\" style=\\\"left:0px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar low \"+isFilled(1)+\"\\\" style=\\\"left:15px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar low \"+isFilled(2)+\"\\\" style=\\\"left:30px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar low \"+isFilled(3)+\"\\\" style=\\\"left:45px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar low \"+isFilled(4)+\"\\\" style=\\\"left:60px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar low \"+isFilled(5)+\"\\\" style=\\\"left:75px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar low \"+isFilled(6)+\"\\\" style=\\\"left:90px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar medium \"+isFilled(7)+\"\\\" style=\\\"left:105px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar medium \"+isFilled(8)+\"\\\" style=\\\"left:120px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar medium \"+isFilled(9)+\"\\\" style=\\\"left:135px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar medium \"+isFilled(10)+\"\\\" style=\\\"left:150px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar medium \"+isFilled(11)+\"\\\" style=\\\"left:165px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar medium \"+isFilled(12)+\"\\\" style=\\\"left:180px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar high \"+isFilled(13)+\"\\\" style=\\\"left:195px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar high \"+isFilled(14)+\"\\\" style=\\\"left:210px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar high \"+isFilled(15)+\"\\\" style=\\\"left:225px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\u003cdiv class=\\\"soundBar high \"+isFilled(16)+\"\\\" style=\\\"left:240px\\\"\u003e\u003c\\/div\u003e\";\n    strVar += \"\t\";\n    strVar += \"\u003c\\/div\u003e\";\n    strVar += \"    \u003cdiv id=\\\"dbLabel\\\" style=\\\"width:225px;text-align:center;padding-top:0px;padding-left:50px;font-size:40px;color:orange;font-weight:bold\\\"\u003e\"+sound+\"\u003cspan style='color:black;font-size:14px;font-weight:normal'\u003edb\u003c/span\u003e\u003c\\/div\u003e\";\n    strVar += \"\u003c\\/div\u003e\";\n    strVar += \"\u003c\\/div\u003e\";\n    strVar += \"    \u003cdiv id=\\\"dbDescription\\\" style=\\\"width:225px;font-size:11px;text-align:center;padding-top:5px;padding-left:5px;color:black;margin: 0 auto;\\\"\u003e\"+description+\"\u003c\\/div\u003e\";\n    strVar += \"\u003c\\/div\u003e\";\n\ndocument.getElementById(\"sbwidget\").innerHTML = strVar;\n\n\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "82834f3a-f911-4392-997e-de406fc8788e",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "25d80bfb-b195-4178-b5aa-4ca07f350b5b": {
+                "externalScripts": [],
+                "id": "25d80bfb-b195-4178-b5aa-4ca07f350b5b",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "arrowColor": "#000000",
+                    "label": "Temp",
+                    "labelColor": "#999999",
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "sectionColors": [
+                        {
+                            "fill": "#6E8592"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "sections": [
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        }
+                    ],
+                    "value": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return JSON.parse(this.datasource).temperature"
+                        }
+                    }
+                },
+                "tab": "507d921b-b78b-4007-a615-3626721c00b6",
+                "type": "SPEEDOMETER_WIDGET"
+            },
+            "29d617ab-694f-422e-b4fa-48b13c25c836": {
+                "externalScripts": [],
+                "id": "29d617ab-694f-422e-b4fa-48b13c25c836",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "\ndiv.bg {\nbackground: #f7f7f9;\n}\n\ndiv#TboardWidget .text {\n  color: #999999 !important;\n}\n\n/* fallback */\n@font-face {\n  font-family: 'Material Icons';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');\n}\n\n.material-icons {\nvertical-align: top;\n  font-family: 'Material Icons';\n  font-weight: normal;\n  font-style: normal;\n  font-size: 24px;\n  line-height: 1;\n  letter-spacing: normal;\n  text-transform: none;\n  display: inline-block;\n  white-space: nowrap;\n  word-wrap: normal;\n  direction: ltr;\n  -webkit-font-feature-settings: 'liga';\n  -webkit-font-smoothing: antialiased;\n}\n",
+                                "HTML": "\u003cdiv id='TboardWidget' class='text-center'\u003eThunderboard\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\ntry {\n    if ( this.datasource !== null ) {\n        var device_label = JSON.parse(this.datasource).devicename ;\n        var deviceaddr = `edge: \u003cb\u003e${JSON.parse(this.datasource).edgename}\u003c/b\u003e`\n        var dlocation = \"last updated \u003cb\u003e\" + $.timeago((new Date(datasources.selectedDevice.latestData().timestamp))) + '\u003c/b\u003e';\n    }\n}\ncatch (err) {\n    console.log( \"TboardWidget: Poor datasource\" + String(err)) ;\n    var device_label = \"Thunderboard\" ;\n    var dname = \"Tboard 102\" ;\n    var dlocation = \"5th Street, Austin, TX\" ;\n}\n\n\nvar strVar=\"\";\nstrVar += \"\u003ch3 id='TboardWidget' class='text-center text'\u003e\"+device_label+\"\u003c/h3\u003e\";\nstrVar += \"\u003cspan class='text'\u003e\"+deviceaddr+ ' - ' + \"\u003c/span\u003e\";\nstrVar += \"\u003cspan class='text'\u003e\"+dlocation+\"\u003c/span\u003e\";\n\ndocument.getElementById(\"TboardWidget\").innerHTML = strVar;"
+                            }
+                        }
+                    }
+                },
+                "tab": "97108b6e-6a14-447b-9bc8-d4a3a36f86d0",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "2b7dde14-ad29-45b6-8c36-7b34172898a4": {
+                "externalScripts": [],
+                "id": "2b7dde14-ad29-45b6-8c36-7b34172898a4",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "value": {
+                            "CSS": "\ndiv.card-header:first-child, div.card-header:first-child div,\ndiv.react-grid-item.headerElementtitle,\ntd.text-center.underline div {\n  border: none;\n  border-radius: 0;\n  text-transform: uppercase;\n  border-bottom: 0;\n  font-weight: bold;\n  color: #ccc !important;\n  background: white;\n  font-size: 18px !important;\n}\n\n.recharts-wrapper {\n    margin-left: -30px;\n}\n\n\nsection#portal-page-Home \u003e .react-grid-layout {\n  background: #eee;\n}\n\n[class*=\"CbPane__ChildrenContainer\"] {\n    background: white;\n}\n\ndiv#portal-pane- {\n    border: none;\n}\n\n.list-group-item.active {\n    color: white !important;\n}\n\n.react-grid-item.headerElementtitle {\n    background: none !important;\n}\n\n\n#header_cblogo {\n  max-height: 100%;\n  max-width: 100%;\n  content: url('data:image/png;base64,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')\n}",
+                            "HTML": "\u003cdiv id=\"header_cblogo\"\u003e\n\u003c/div\u003e\n\u003cscript src=\"dist/timeago.js\" type=\"text/javascript\"\u003e\u003c/script\u003e",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "dd42efcf-0091-4f9c-a2ba-da135a648b32",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "3c1280ad-54e2-40df-854a-2026555dde72": {
+                "externalScripts": [],
+                "id": "3c1280ad-54e2-40df-854a-2026555dde72",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "arrowColor": "#000000",
+                    "label": "Humidity",
+                    "labelColor": "#999999",
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "sectionColors": [
+                        {
+                            "fill": "#6E8592"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "sections": [
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        }
+                    ],
+                    "value": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "if (this.datasource.length\u003e0)\n    return JSON.parse(this.datasource).humidity;"
+                        }
+                    }
+                },
+                "tab": "507d921b-b78b-4007-a615-3626721c00b6",
+                "type": "SPEEDOMETER_WIDGET"
+            },
+            "48b03565-14c2-4d0b-8c78-5502ef12295d": {
+                "externalScripts": [],
+                "id": "48b03565-14c2-4d0b-8c78-5502ef12295d",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "barColors": [
+                        {
+                            "fill": "#015f96"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "humidity",
+                            "legendType": "star"
+                        }
+                    ],
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "94dc9f2f-1c71-4ace-914a-81dcd44b025c",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var r=[];\nif (this.datasource.success==false)\n\treturn [];\nif(this.datasource.results)\nfor(var i=0; i\u003cthis.datasource.results.DATA.length; i++) {\n\tr.push( {\n\t\t\t\ttimestamp: (new Date(this.datasource.results.DATA[i].timestamp)).toLocaleString(),\n\t\thumidity: this.datasource.results.DATA[i].humidity\n\t})\n}\nreturn r;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "timeformat": " ddd ha ",
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "dataKey": "humidity",
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0
+                        }
+                    ]
+                },
+                "tab": "28ceff36-bf47-469f-96ab-694ca924aa4f",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "597aba28-a338-4c27-9442-7b29dd249827": {
+                "externalScripts": [],
+                "id": "597aba28-a338-4c27-9442-7b29dd249827",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "arrowColor": "#000000",
+                    "label": "CO2",
+                    "labelColor": "#999999",
+                    "maxValue": "10000",
+                    "minValue": 0,
+                    "sectionColors": [
+                        {
+                            "fill": "#6E8592"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "sections": [
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        }
+                    ],
+                    "value": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "if (this.datasource.length\u003e0)\n    return JSON.parse(this.datasource).co2;"
+                        }
+                    }
+                },
+                "tab": "507d921b-b78b-4007-a615-3626721c00b6",
+                "type": "SPEEDOMETER_WIDGET"
+            },
+            "60e274f9-858d-485a-a38d-4256eb8220fa": {
+                "externalScripts": [],
+                "id": "60e274f9-858d-485a-a38d-4256eb8220fa",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "barColors": [
+                        {
+                            "fill": "#2d582d"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "sound",
+                            "legendType": "diamond"
+                        }
+                    ],
+                    "brushStroke": "#615d6d",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "94dc9f2f-1c71-4ace-914a-81dcd44b025c",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var r=[];\n\nif (this.datasource.success==false)\n\treturn [];\nif(this.datasource.results)\nfor(var i=0; i\u003cthis.datasource.results.DATA.length; i++) {\n\tr.push( {\n\t\ttimestamp: (new Date(this.datasource.results.DATA[i].timestamp)).toLocaleString(),\n\t\tsound: this.datasource.results.DATA[i].sound\n\t})\n}\nreturn r;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "timeformat": " ddd ha ",
+                    "xAxisDataKey": "timestamp",
+                    "xAxisLabel": "",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": "0",
+                    "yAxes": [
+                        {
+                            "dataKey": "sound",
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0
+                        }
+                    ]
+                },
+                "tab": "28ceff36-bf47-469f-96ab-694ca924aa4f",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "64cba777-cd8c-4ef9-9232-80cdc8618a01": {
+                "externalScripts": [],
+                "id": "64cba777-cd8c-4ef9-9232-80cdc8618a01",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "arrowColor": "#000000",
+                    "htmlId": "rssi",
+                    "label": "RSSI",
+                    "labelColor": "#999999",
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "sectionColors": [
+                        {
+                            "fill": "#6E8592"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "sections": [
+                        {
+                            "label": "Poor",
+                            "percentage": 25
+                        },
+                        {
+                            "label": "Good",
+                            "percentage": 25
+                        },
+                        {
+                            "label": "Excellent",
+                            "percentage": "50"
+                        }
+                    ],
+                    "value": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "\nif (this.datasource)\n    return 100+JSON.parse(this.datasource).rssi;"
+                        }
+                    }
+                },
+                "tab": "5b3392e8-0e01-4ae6-b2db-8419021d3e58",
+                "type": "SPEEDOMETER_WIDGET"
+            },
+            "68e13412-d73a-4439-99fa-96bb0be18d52": {
+                "externalScripts": [],
+                "id": "68e13412-d73a-4439-99fa-96bb0be18d52",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "barColors": [
+                        {
+                            "fill": "#9e7705"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "light",
+                            "legendType": "star"
+                        }
+                    ],
+                    "brushStroke": "#615d6d",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "94dc9f2f-1c71-4ace-914a-81dcd44b025c",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var r=[];\nif (this.datasource.success==false)\n\treturn [];\nif(this.datasource.results)\nfor(var i=0; i\u003cthis.datasource.results.DATA.length; i++) {\n\tr.push( {\n\t\ttimestamp: (new Date(this.datasource.results.DATA[i].timestamp)).toLocaleString(),\n\t\tlight: this.datasource.results.DATA[i].light\n\t})\n}\nreturn r;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "timeformat": " ddd ha ",
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "dataKey": "light",
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0
+                        }
+                    ]
+                },
+                "tab": "28ceff36-bf47-469f-96ab-694ca924aa4f",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "874954a7-7b55-4787-a383-edb902829181": {
+                "externalScripts": [],
+                "id": "874954a7-7b55-4787-a383-edb902829181",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                                "HTML": "\u003cdiv\u003e\n  \u003cdiv id=\"jsonData\" style=\"font-size:12px\"\u003e\u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\ndocument.getElementById(\"jsonData\").innerHTML=\"\u003cpre\u003e\" + JSON.stringify(JSON.parse(this.datasource), undefined, 2) + \"\u003c/pre\u003e\";"
+                            }
+                        }
+                    }
+                },
+                "tab": "cda2afd1-843d-47d5-a4fd-b6f9bcc1cc54",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "8b014717-feaf-423a-8b8c-1cbbb2e472ac": {
+                "externalScripts": [],
+                "id": "8b014717-feaf-423a-8b8c-1cbbb2e472ac",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "arrowColor": "#000000",
+                    "label": "Light",
+                    "labelColor": "#999999",
+                    "maxValue": "1000",
+                    "minValue": 0,
+                    "sectionColors": [
+                        {
+                            "fill": "#6E8592"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "sections": [
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        },
+                        {
+                            "percentage": 25
+                        }
+                    ],
+                    "value": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "if (this.datasource.length\u003e0)\n    return JSON.parse(this.datasource).ambientLight;"
+                        }
+                    }
+                },
+                "tab": "507d921b-b78b-4007-a615-3626721c00b6",
+                "type": "SPEEDOMETER_WIDGET"
+            },
+            "ac703102-1534-4626-8a0b-865d5586dd08": {
+                "externalScripts": [],
+                "id": "ac703102-1534-4626-8a0b-865d5586dd08",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".foo {\n    font-size: x-small;\n    color: black;\n}\n",
+                            "HTML": "\u003cdiv\u003e\n    \u003cimg width=\"100%\" src=\"https://siliconlabs-h.assetsadobe.com/is/image//content/dam/siliconlabs/images/products/Bluetooth/thunderboard/thunderboard-sense-bubbles.jpg?$Large2Column30pct$\n\"/\u003e\n\u003c/div\u003e\n\u003cdiv class=\"foo\"\u003e\n    Thunderboard™ Sense is a small and feature packed development platform for battery operated IoT applications. The mobile app enables a quick proof of concept of cloud connected sensors. \n\u003c/div\u003e\n\u003cbr\u003e\n\u003cdiv class=\"foo\"\u003e\n    The multi-protocol radio combined with a broad selection of on-board sensors, make the Thunderboard Sense an excellent platform to develop and prototype a wide range of battery powered IoT applications.\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "982c1f8c-4954-40ed-8061-ac106c4d8d72",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "b485efd6-4588-43cb-bae8-aa33f55735dd": {
+                "externalScripts": [],
+                "id": "b485efd6-4588-43cb-bae8-aa33f55735dd",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "activeFontColor": "#000000",
+                    "activeItemBackgroundColor": "#615d6d",
+                    "allowSearch": true,
+                    "displayAttribute": "device_name",
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "2db76c1f-9ea9-4215-94f8-f59cdc28fca6",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "s=datasources.thunderboardMessage.settings();\ns.TOPIC_NAME=\"device/ThunderBoard/\" + this.widget.deviceid;\ndatasources.thunderboardMessage.settings(s);\nCB_PORTAL.Loader.waitFor(datasources.device_History.sendData(this.widget))\ndatasources.device_History.refresh();\ndatasources.thunderboardMessage.refresh();\nreturn this.widget;"
+                        }
+                    },
+                    "fontColor": "#000000",
+                    "listItemBackgroundColor": "#ffffff",
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE",
+                            "STATIC_DATA_TYPE"
+                        ],
+                        "id": "8372bf42-356d-4145-9abb-340c0b71ff6b",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var fmtData = [];\nvar len = this.datasource.results.length;\nfor(var i = 0; i \u003c len; i++){\n  if (new Date(Date.parse(this.datasource.results[i].timestamp))\u003enew Date(Date.now() - 60*60000)) //TODO add range\n    this.datasource.results[i].isConnected=true;\n  else\n    this.datasource.results[i].isConnected=false;\n  fmtData.push(this.datasource.results[i]);\n}\nreturn fmtData;"
+                        }
+                    },
+                    "statusAttribute": "isConnected",
+                    "titleColor": "#000000"
+                },
+                "tab": "dd42efcf-0091-4f9c-a2ba-da135a648b32",
+                "type": "GROUPING_LIST_WIDGET_COMPONENT"
+            },
+            "bfd94129-2f4b-4452-98ee-28c6d3237ec9": {
+                "externalScripts": [],
+                "id": "bfd94129-2f4b-4452-98ee-28c6d3237ec9",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "barColors": [
+                        {
+                            "fill": "#8c0205"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "temperature",
+                            "legendType": "line"
+                        }
+                    ],
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "94dc9f2f-1c71-4ace-914a-81dcd44b025c",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var r=[];\nif (this.datasource.success==false)\n\treturn [];\nif(this.datasource.results)\nfor(var i=0; i\u003cthis.datasource.results.DATA.length; i++) {\n\tr.push( {\n\t\ttimestamp: (new Date(this.datasource.results.DATA[i].timestamp)).toLocaleString(),\n\t\ttemperature: this.datasource.results.DATA[i].temperature\n\n\t})\n}\nreturn r;\n"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "timeformat": " ddd ha ",
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "dataKey": "temperature",
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0,
+                            "timeformat": ""
+                        }
+                    ]
+                },
+                "tab": "28ceff36-bf47-469f-96ab-694ca924aa4f",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "c6429bf5-d632-4ce3-b9c8-bb3d1913a141": {
+                "externalScripts": [],
+                "id": "c6429bf5-d632-4ce3-b9c8-bb3d1913a141",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".Tcontainer { width: 300px; height: 200px; position: relative; overflow: visible; perspective: 1000px; left :50px; top:100px;  }\n#box { width: 100%; height: 100%; position: absolute; transform-style: preserve-3d; \n            transform: translateZ( -100px ) rotateY( 45deg ) rotateX( 45deg ) rotateZ( 45deg);\n}\n#box figure { margin: 0; display: block; position: absolute; border: 2px solid transparent; background-color: black; font-size:20px; text-align: center; }\n#box .front,\n#box .back {  width: 296px; height: 196px; font-size:160px; border-radius:2px;}\n#box .front {\nbackground-image: url('https://s3.amazonaws.com/uploads.hipchat.com/76688/547710/HNmCer5ioEnyvQ8/BRD4160_NewFrontText2%20%284%29.png');\nbackground-size:cover;}\n#box .back {\nbackground-image: url('https://s3.amazonaws.com/uploads.hipchat.com/76688/547710/bsDatH1uQ0Ap9dx/BRD4160_NewGoldBackText2.png');\nbackground-size:cover;}\n#box .right, #box .left { width: 8px; height: 193px;left: 144px;top:2px; background-color:#ACB0AE;}\n#box .top,\n#box .bottom {width: 296px; height: 8px;top: 94px;left:0px;background-color:#ACB0AE;}\n#box .front  { transform: rotateY(   0deg ) translateZ(  5px ); } \n#box .back   { transform: rotateX( 180deg ) translateZ(  5px ); } \n#box .right  { transform: rotateY(  90deg ) translateZ( 150px ); } \n#box .left   { transform: rotateY( -90deg ) translateZ( 150px ); } \n#box .top    { transform: rotateX(  90deg ) translateZ( 100px ); } \n#box .bottom { transform: rotateX( -90deg ) translateZ( 100px ); }\n#box.show-front  { transform: translateZ( -100px ) rotateY(    0deg ); } \n#box.show-back   { transform: translateZ( -100px ) rotateX( -180deg ); } \n#box.show-right  { transform: translateZ( -100px ) rotateY(  -90deg ); } \n#box.show-left   { transform: translateZ( -100px ) rotateY(   90deg ); } \n#box.show-top    { transform: translateZ( -100px ) rotateX(  -90deg ); } \n#box.show-bottom { transform: translateZ( -100px ) rotateX(   90deg ); }\n#box { transition: transform 1s; }",
+                            "HTML": "\u003cdiv style=\"width:400px;height:400px;background-size: 100% 100%;background-image:url('http://4.bp.blogspot.com/-sA2ZM0-oR4E/Uh9hoE_6qZI/AAAAAAAAEwg/GV740FLO7s4/s1600/Background-Grid2.jpg')\"\u003e\n\u003csection class=\"Tcontainer\" style=\"overflow: visible;\"\u003e \n\u003cdiv id=\"box\"\u003e \n\u003cfigure class=\"front\"\u003e\u003c/figure\u003e \n\u003cfigure class=\"back\"\u003e\u003c/figure\u003e\n\u003cfigure class=\"right\"\u003e\u003c/figure\u003e \n\u003cfigure class=\"left\"\u003e\u003c/figure\u003e \n\u003cfigure class=\"top\"\u003e\u003c/figure\u003e \n\u003cfigure class=\"bottom\"\u003e\u003c/figure\u003e \n\u003c/div\u003e\n\u003c/section\u003e\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "6033ca3d-3999-4018-a8ed-8864614cfb24",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "efffa571-f592-42b9-a0ec-2b0beca910d4": {
+                "externalScripts": [],
+                "id": "efffa571-f592-42b9-a0ec-2b0beca910d4",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "arrowColor": "#000000",
+                    "label": "Pressure",
+                    "labelColor": "#999999",
+                    "maxValue": "1200",
+                    "minValue": "0",
+                    "sectionColors": [
+                        {
+                            "fill": "#6E8592"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "sections": [
+                        {
+                            "label": "",
+                            "percentage": 25
+                        },
+                        {
+                            "label": "",
+                            "percentage": 25
+                        },
+                        {
+                            "label": "",
+                            "percentage": "25"
+                        },
+                        {
+                            "percentage": "25"
+                        }
+                    ],
+                    "value": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "8b531a4c-d768-444e-a3da-8e9bbd2e4175",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "\nif (this.datasource)\n    return 100+JSON.parse(this.datasource).pressure;"
+                        }
+                    }
+                },
+                "tab": "507d921b-b78b-4007-a615-3626721c00b6",
+                "type": "SPEEDOMETER_WIDGET"
+            },
+            "fd6b009a-3e11-47cf-8de7-efa9ea9bc3b5": {
+                "externalScripts": [],
+                "id": "fd6b009a-3e11-47cf-8de7-efa9ea9bc3b5",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "barColors": [
+                        {
+                            "fill": "#726e92"
+                        },
+                        {
+                            "fill": "#6E93A8"
+                        },
+                        {
+                            "fill": "#DBA5A8"
+                        },
+                        {
+                            "fill": "#E8E7C6"
+                        }
+                    ],
+                    "bars": [
+                        {
+                            "dataKey": "co2",
+                            "legendType": "cross"
+                        }
+                    ],
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "94dc9f2f-1c71-4ace-914a-81dcd44b025c",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "var r=[];\nif (this.datasource.success==false)\n\treturn [];\nif(this.datasource.results)\nfor(var i=0; i\u003cthis.datasource.results.DATA.length; i++) {\n\tr.push( {\n\t\ttimestamp: (new Date(this.datasource.results.DATA[i].timestamp)).toLocaleString(),\n\t\tco2: this.datasource.results.DATA[i].co2\n\t})\n}\nreturn r;"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "timeformat": " ddd ha ",
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "dataKey": "co2",
+                            "orientation": "left",
+                            "paddingBottom": 0,
+                            "paddingTop": 0
+                        }
+                    ]
+                },
+                "tab": "28ceff36-bf47-469f-96ab-694ca924aa4f",
+                "type": "BAR_CHART_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": null,
+    "last_updated": "26 Mar 18 22:29 UTC",
+    "name": "Thunderboard2",
+    "system_key": "e0d083ab0b8abe99fd86c0bef802",
+    "type": "edge_monitoring_v2"
+}
