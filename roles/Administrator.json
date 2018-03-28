@@ -1,0 +1,221 @@
+{
+    "Description": "Default role that is applied to a user who has rights to everything",
+    "ID": "Administrator",
+    "Name": "Administrator",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "_processModBusResponse",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "application_properties",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "device_profile",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "http_weather",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "integration_lookup",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "message_firmwareMonitor",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "portal_DeviceHistory",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "portal_DeviceList",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "portal_firmwareList",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "portal_firmwareUpload",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "portal_loadDeviceData",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "portal_locations",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "portal_waysides",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 1,
+                "Name": "retrieveDeviceData",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "badcc4a90bb0dcc3ff9599faef58",
+                "Items": [],
+                "Level": 15,
+                "Name": "badcc4a90bb0dcc3ff9599faef58"
+            },
+            {
+                "Columns": [],
+                "ID": "84bb8daa0ba2dc8880e6f482c25b",
+                "Items": [],
+                "Level": 15,
+                "Name": "device_profile"
+            },
+            {
+                "Columns": [],
+                "ID": "faa5eba90b8cdcdfbccba7f8ab39",
+                "Items": [],
+                "Level": 15,
+                "Name": "faa5eba90b8cdcdfbccba7f8ab39"
+            },
+            {
+                "Columns": [],
+                "ID": "faadeba90bc082fabc9df8f7ffde01",
+                "Items": [],
+                "Level": 15,
+                "Name": "faadeba90bc082fabc9df8f7ffde01"
+            },
+            {
+                "Columns": [],
+                "ID": "84bdb7a90bc4a7c284de90e4b91b",
+                "Items": [],
+                "Level": 15,
+                "Name": "firmware"
+            },
+            {
+                "Columns": [],
+                "ID": "8aa18bab0b868eef80c6b0e3e903",
+                "Items": [],
+                "Level": 15,
+                "Name": "firmware"
+            },
+            {
+                "Columns": [],
+                "ID": "9ac08daa0bc6cb9cef8dcbf8f852",
+                "Items": [],
+                "Level": 15,
+                "Name": "integration_lookup"
+            },
+            {
+                "Columns": [],
+                "ID": "8c9ea2aa0bf4dde89bf9b4d7e747",
+                "Items": [],
+                "Level": 15,
+                "Name": "locations"
+            },
+            {
+                "Columns": [],
+                "ID": "8a8acca90bb8d0c7e0b9f1e5e7b201",
+                "Items": [],
+                "Level": 7,
+                "Name": "modbus_coils"
+            },
+            {
+                "Columns": [],
+                "ID": "aee8cfa90bb49a89cdc1b4a1fe33",
+                "Items": [],
+                "Level": 7,
+                "Name": "modbus_holdingregisters"
+            },
+            {
+                "Columns": [],
+                "ID": "8aebcfa90b80c79e95d0ededd95c",
+                "Items": [],
+                "Level": 7,
+                "Name": "modbus_inputregisters"
+            },
+            {
+                "Columns": [],
+                "ID": "beb6cca90bb4cdc288fcced3a746",
+                "Items": [],
+                "Level": 7,
+                "Name": "modbus_inputs"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 1
+        },
+        "MsgHistory": {
+            "Level": 1
+        },
+        "Portals": [
+            {
+                "Level": 15,
+                "Name": "Device Management Portal",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 15,
+                "Name": "ModBus Data Portal",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 15,
+                "Name": "Monitoring Portal",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 15,
+                "Name": "Thunderboard",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            },
+            {
+                "Level": 15,
+                "Name": "Thunderboard2",
+                "SystemKey": "e0d083ab0b8abe99fd86c0bef802"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "SystemServices": null,
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
