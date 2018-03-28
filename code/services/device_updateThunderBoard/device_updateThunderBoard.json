@@ -1,0 +1,12 @@
+{
+    "current_version": 192,
+    "dependencies": "clearblade,qLib,log",
+    "logging_enabled": "true",
+    "name": "device_updateThunderBoard",
+    "params": [],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "device_updateThunderBoard.js"
+}
