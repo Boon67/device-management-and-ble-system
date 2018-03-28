@@ -1,0 +1,13 @@
+{
+    "current_version": 9,
+    "dependencies": "clearblade",
+    "logging_enabled": "false",
+    "name": "portal_DeviceList",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "portal_DeviceList.js"
+}
