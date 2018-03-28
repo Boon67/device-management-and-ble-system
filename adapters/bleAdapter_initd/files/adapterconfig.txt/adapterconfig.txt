@@ -1,0 +1,7 @@
+#Variables for Init.d Deployments
+ADAPTERROOTFOLDER=/usr/bin/clearblade/adapters
+ADAPTERFULLPATH=$ADAPTERROOTFOLDER/$ADAPTERNAME
+ADAPTERSERVICENAME=bleAdapter
+INITDPATH=/etc/init.d
+PYTHONFILE=scanner.py
+PYTHONBIN=/usr/bin/python
