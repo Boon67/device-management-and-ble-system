@@ -1,0 +1,9 @@
+{
+    "adaptor_name": "bleAdapter_initd",
+    "group": "",
+    "name": "undeploy.sh",
+    "owner": "",
+    "path_name": "undeploy.sh",
+    "permissions": "",
+    "version": 10
+}
