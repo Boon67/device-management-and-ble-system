@@ -1,0 +1,13 @@
+{
+    "description": "Pi Edge",
+    "last_seen_version": "3.22",
+    "location": null,
+    "mac_address": null,
+    "name": "Edge2",
+    "policy_name": null,
+    "resolver_func": null,
+    "sync_edge_tables": null,
+    "system_key": "e0d083ab0b8abe99fd86c0bef802",
+    "system_secret": "E0D083AB0BDAEAFE8B8F8CB4E315",
+    "token": "2QBG27UD2I2m5ye429942954e6c"
+}
