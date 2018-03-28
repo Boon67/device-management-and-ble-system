@@ -1,0 +1,71 @@
+{
+    "auth": true,
+    "deployments": [
+        {
+            "assets": [
+                {
+                    "asset_class": "adaptors",
+                    "asset_id": "bleAdapter",
+                    "deployment": "edge2",
+                    "member": "edge2_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "devices",
+                    "asset_id": "",
+                    "deployment": "edge2",
+                    "member": "edge2_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "users",
+                    "asset_id": "",
+                    "deployment": "edge2",
+                    "member": "edge2_deployment_edge_group",
+                    "sync": true
+                }
+            ],
+            "description": "",
+            "edges": [
+                "Edge2"
+            ],
+            "name": "edge2"
+        },
+        {
+            "assets": [
+                {
+                    "asset_class": "adaptors",
+                    "asset_id": "bleAdapter_initd",
+                    "deployment": "nxpGateway",
+                    "member": "nxpGateway_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "libraries",
+                    "asset_id": "",
+                    "deployment": "nxpGateway",
+                    "member": "nxpGateway_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "users",
+                    "asset_id": "",
+                    "deployment": "nxpGateway",
+                    "member": "nxpGateway_deployment_edge_group",
+                    "sync": true
+                }
+            ],
+            "description": "",
+            "edges": [
+                "nxpGateway"
+            ],
+            "name": "nxpGateway"
+        }
+    ],
+    "description": "",
+    "messaging_url": "presales.clearblade.com:1883",
+    "name": "nxp Device Management and BLE System",
+    "platform_url": "https://presales.clearblade.com",
+    "system_key": "e0d083ab0b8abe99fd86c0bef802",
+    "system_secret": "E0D083AB0BDAEAFE8B8F8CB4E315"
+}
