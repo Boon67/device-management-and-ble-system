@@ -1,0 +1,23 @@
+{
+    "author": {
+        "email": "tboon@clearblade.com"
+    },
+    "clouds": [],
+    "description": "Device Management and a BLE Adapter System",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "ble"
+    ],
+    "license": "MIT",
+    "name": "device-management-and-ble-system",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": ""
+}
